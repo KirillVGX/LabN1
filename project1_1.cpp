@@ -5,9 +5,9 @@ using namespace std;
 int main() {
 	setlocale(0, ".1251");
 	int a, b, r, dobutok, summa;
-	cout << "Ââåä³òü øèðèíó ";
+	cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ";
 	cin >> a;
-	cout << "Ââåä³òü øèðèíó ";
+	cout << "Ð’Ð²ÐµÐ´Ñ–Ñ‚ÑŒ ÑˆÐ¸Ñ€Ð¸Ð½Ñƒ ";
 	cin >> b;
 	float s = a * b;
 	float p = 2 * (a + b);
@@ -15,11 +15,11 @@ int main() {
 	r = s - p;
 	dobutok = s * p;
 	float c = s / p;
-	cout << "Ïåðèìåòð = " << p;
-	cout << "Ïëîùà = " << s;
-	cout << "Ñóìà = " << summa; 
-	cout << "Äîáóòîê = " << dobutok;
-	cout << "Ð³çíèöÿ = " << r;
-	cout << "÷àñòêà = " << c << endl;
+	cout << "ÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€ = " << p;
+	cout << "ÐŸÐ»Ð¾Ñ‰Ð° = " << s;
+	cout << "Ð¡ÑƒÐ¼Ð° = " << summa; 
+	cout << "Ð”Ð¾Ð±ÑƒÑ‚Ð¾Ðº = " << dobutok;
+	cout << "Ð Ñ–Ð·Ð½Ð¸Ñ†Ñ = " << r;
+	cout << "Ñ‡Ð°ÑÑ‚ÐºÐ° = " << c << endl;
 	return 0;
 }
